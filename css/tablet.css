@@ -1,0 +1,25 @@
+/* TABLET*/
+@media (min-width:768px) and (max-width:1024px)
+ {  body{
+     width: 100%;
+ }
+    #menu ul li{
+        display: block;
+        background-color: orangered;
+    }
+    #menu{
+        overflow: hidden;
+    }
+    #table-img div{
+        display: block;
+    }
+    #footer div{
+        display: block;
+    }
+    #table-img .col{
+        width: 45%;
+    }
+    #footer .col{
+        width: 100%;
+    }
+ }

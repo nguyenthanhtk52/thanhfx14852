@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+body {
+    width: 80%;
+    height: 655px;
+    margin: auto;
+    border: solid 1px ;
+    border:none
+}
+#menu{
+    width: 100%;
+    height: 50px;
+    border: solid 1px ;
+    border: none;
+}
+#menu ul li{
+    display: inline;
+    padding-right: 10px;}
+#menu ul li:nth-child(1){
+    margin-left: 1%;
+}
+#menu ul li:nth-child(2)
+{
+    margin-right: 55%;
+}
+.form{
+    background-image: url('https://3.bp.blogspot.com/-jjKBbrkRmOs/UhWq2Q05-CI/AAAAAAAAED0/DoBHTOVpltg/s1600/anh-dong-dep-cho-may-tinh+(20).gif');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 40px ;
+    border-radius: 10%;
+}
+.longin-container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+.h2{
+    font-size: 20px;
+    margin-left: 55%;
+    margin-bottom: 30px;
+    
+}
+.input-form{
+    margin-bottom: 10px;
+}
+.input-form{
+    padding: 7.5px 15px;
+    width: 100%;
+    outline: none;
+}
+a{
+    text-decoration: none;
+}
+#footer h3{
+    margin-left: 4%;
+    margin-top: -19px;
+    padding-top: 40px ;
+}
+#footer p{
+    margin-left: 4%;}
+.col{
+        display: inline-block;
+        width: 25%;
+        height: auto;
+        margin-left: 4%;
+    }
+#footer{
+    background-color: #f7f7f7;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+[type='checkbox']{
+    margin: 0px 0px 20px 0px;
+}
+@media (max-width:740px){
+    [class*="col-"]{
+        width: 100%;
+    }
+    #menu ul li:nth-child{
+        display: -webkit-inline-box;
+    }
+}
+@media (min-width:768px)and(max-width:1024px) {
+    #footer .col{
+        width: 100%;
+    }
+}

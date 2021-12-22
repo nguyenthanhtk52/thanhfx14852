@@ -1,0 +1,24 @@
+ /* moblie*/
+ @media(max-width:740px)
+ {  body{
+     width: 100%;
+ }
+    #menu ul li{
+        display: block;
+        background-color: orangered;
+    }
+    #menu{
+        overflow: hidden;
+    }
+    #table-img div{
+        display: block;
+    }
+    #footer div{
+        display: block;
+    }
+    .col{
+        width: 100%;
+        margin-left: 0%;
+    }
+
+ }
